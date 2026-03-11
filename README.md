@@ -16,7 +16,7 @@ V zadnjih letih je bilo veliko govora o upadu rodnosti v Sloveniji. Namen tega p
 ## Vir in oblika podatkov
 Projekt temelji na odprtih podatkih v obliki tabel na strani SiStat (SURS) 
 
-- letno število živorojenih (po občinah, statističnih regijah) - [link](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2008S.px)
+- letno število živorojenih (po občinah, statističnih regijah) - [test](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2008S.px)
 [link](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2014S.px)
 - Povprečne mesečne plače pri pravnih osebah (po občinah, statističnih regijah) – [link](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0701024S.px) [link](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0701023S.px)
 - stopnja zaposlenosti/brezposelnosti - [link](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/2640005S.px/) 
