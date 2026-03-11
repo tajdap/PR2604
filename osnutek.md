@@ -16,11 +16,10 @@ V zadnjih letih je bilo veliko govora o upadu rodnosti v Sloveniji. Namen tega p
 ## Vir in oblika podatkov
 Projekt temelji na odprtih podatkih v obliki tabel na strani SiStat (SURS) 
 
-- letno število živorojenih (po občinah, statističnih regijah) - [rojstva po regijah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2008S.px)
-[rojstva po občinah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2014S.px)
-- Povprečne mesečne plače pri pravnih osebah (po občinah, statističnih regijah) – [plače po občinah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0701024S.px) [plače po regijah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0701023S.px)
-- stopnja zaposlenosti/brezposelnosti - [stopnja brezposelnosti](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/2640005S.px/) 
-- stopnja izobrazbe matere, ko se otrok rodi - [izobrazba](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1027S.px/)
-- podatki o cenah nepremičnin – [indeksi cen nepremičnin](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0419005S.px)
-- živorojeni v zakonski zvezi ali zunaj zakonske zveze - [znotraj/zunaj zakona](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1018S.px/)
-- indeksi inflacije - [inflacija](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/0400611S.px/)
+- letno število živorojenih (po [regijah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2008S.px) in [občinah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/05J2014S.px))
+- Povprečne mesečne plače pri pravnih osebah (po [občinah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0701024S.px)in [regijah](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0701023S.px))  
+- [stopnja zaposlenosti/brezposelnosti](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/2640005S.px/) 
+- [stopnja izobrazbe matere, ko se otrok rodi](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1027S.px/)
+- [podatki o cenah nepremičnin](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0419005S.px)
+- [živorojeni v zakonski zvezi ali zunaj zakonske zveze](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1018S.px/)
+- [indeksi inflacije](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/0400611S.px/)
