@@ -28,8 +28,7 @@ Za obdelavo podatkov smo uporabili sledeče vire:
 ### Rodnost glede na tip okolja
 Iz podatkov o gostoti naseljenosti občin, lahko okvirno določimo kakšen tip naselij tam prevladuje. Za podeželjske občine smo vzeli gostoto do 200 prebivalcev na kvadratni meter, za mesto pa vse kar je več od tega. To smo združili s podatki o številu živorojenih na 1000 ljudi posamezne občine.
 
-S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 2013-2018 pa se je tudi zgodila ta sprememba, da je rodnost v mestih začela upadati močneje kot na podeželju. Sicer pa je razlika tako majhna, da bi jo lahko zanemarili.
-
+S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 2013-2018 pa se je tudi zgodila ta sprememba, da je rodnost v mestih začela upadati močneje kot na podeželju. Tako je v zadnjih nekaj letih veliko več rojstev v manjših naseljih, morda zaradi večje prisotnosti tradicionalnih vrednot kot v mestih.
 ![Graf rodnosti](slike/graf_tip_okolja.png)
 *Slika 1: Povprečna rodnost v obdobju 2007-2023.*
 
