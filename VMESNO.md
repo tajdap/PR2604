@@ -40,6 +40,7 @@ S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 201
 *Občine, ki so obarvane sivo, so v podatkih v tabelah poimenovane drugače, kot v datoteki interaktivnega zemljevida.*
 
 ![Zemljevid rodnosti](slike/rodnost_zemljevid.png)
+
 *Slika 2: Porazdelitev rodnosti po slovenskih občinah.*
 
 ### Vpliv stopnje izobrazbe matere in starosti na prvo rojstvo
@@ -52,6 +53,7 @@ Najvišje vrednosti povprečno imajo matere s **višješolsko/visokošolsko izob
 **Sklep**: izobrazba sama po sebi ne povečuje števila rojstev, ampak vpliva predvsem na čas odločanja za prvega otroka (kasnejše materinstvo).
 
 ![rojstvo po izobrazbi](slike/rojstvo_po_izobrazbi.png)
+
 *Slika 3: Rojstva po izobrazbi.*
 
 Vse izobrazbene skupine imajo negativen naklon trenda, kar pomeni stalno zmanjševanje števila prvih rojstev.
