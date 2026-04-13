@@ -100,7 +100,7 @@ Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zako
 
 Če želimo ugotoviti, katere starostne skupine najbolj vplivajo na to spremembo, moramo pogledati tudi rodnost po starostnih skupinah.
 
-![skupine](slike/po skupinah.svg)
+![skupine](slike/po skupinah.png)
 
 *Slika 6: Količina rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
 
