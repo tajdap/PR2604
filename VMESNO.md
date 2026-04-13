@@ -92,7 +92,7 @@ Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenij
 
 Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zakonski zvezi, smo našli podatke ki predstavljajo le to. Na žalost takšna statistika obstaja le za prvega rojenega otroka, kar je glede na podatke SURS približno polovica rojenih otrok.
 
-![trend_rojstev](slike/rojstva trend.png)
+![trend_rojstev](slike/rojstva_poroka.png)
 
 *Slika 7: Količina rojstev v in zunaj zakonske zveze čez leta.*
 
@@ -100,7 +100,7 @@ Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zako
 
 Če želimo ugotoviti, katere starostne skupine najbolj vplivajo na to spremembo, moramo pogledati tudi rodnost po starostnih skupinah.
 
-![skupine](slike/po skupinah.png)
+![skupine](slike/poskupinah.png)
 
 *Slika 6: Količina rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
 
