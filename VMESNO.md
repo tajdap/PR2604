@@ -49,22 +49,15 @@ S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 201
 
 V vseh skupinah je viden splošen padec števila prvih rojstev skozi čas.
 Najvišje vrednosti povprečno imajo matere s **višješolsko/visokošolsko izobrazbo**.
-
-**Sklep**: izobrazba sama po sebi ne povečuje števila rojstev, ampak vpliva predvsem na čas odločanja za prvega otroka (kasnejše materinstvo).
-
-![rojstvo po izobrazbi](slike/rojstvo_po_izobrazbi.png)
-
-*Slika 3: Rojstva po izobrazbi.*
-
 Vse izobrazbene skupine imajo negativen naklon trenda, kar pomeni stalno zmanjševanje števila prvih rojstev.
 Največji padec ima srednješolska skupina, kar kaže, da se demografske spremembe najbolj poznajo prav v tej populaciji.
 Najmanjši padec ima osnovnošolska ali nižja izobrazba, vendar je ta skupina numerično najmanjša.
 
-**Sklep**: upad prvih rojstev je splošen demografski pojav, ne le posledica izobrazbe.
+**Sklep**: izobrazba sama po sebi ne povečuje števila rojstev, ampak vpliva predvsem na čas odločanja za prvega otroka (kasnejše materinstvo). Upad prvih rojstev je splošen demografski pojav, ne le posledica izobrazbe.
 
 ![trend rojstev](slike/trend_rojstev.png)
 
-*Slika 4: Trend rojstev.*
+*Slika 3: Trend rojstev.*
 
 # Analiza po starosti
 
@@ -75,7 +68,7 @@ Starostni skupini pod 20 let in 40+ let imata zelo nizke vrednosti, kar potrjuje
 
 ![prvo_rojstvo_po_starosti](slike/prvo_rojstvo_po_starosti.png)
 
-*Slika 5: Število prvih rojstev po starostnih skupinah mater glede na leto*
+*Slika 4: Število prvih rojstev po starostnih skupinah mater glede na leto*
 
 Na podlagi grafa lahko sklepamo, da se v Sloveniji soočamo z upadom števila prvorojencev, kar kaže na to, da se vse manj žensk odloča za prvega otroka. Ta pojav je lahko povezan s kasnejšim odločanjem za materinstvo ter širšimi družbenimi in ekonomskimi dejavniki.
 
@@ -83,4 +76,4 @@ Na podlagi grafa lahko sklepamo, da se v Sloveniji soočamo z upadom števila pr
 
 ![prva rojstva](slike/prva_rojstva_letno.png)
 
-*Slika 6: Število prvih rojstev letno.*
+*Slika 5: Število prvih rojstev letno.*
