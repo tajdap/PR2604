@@ -24,6 +24,8 @@ Za obdelavo podatkov smo uporabili sledeče vire:
 
 ## Analiza podatkov
 
+Za obdelavo in analizo podatkov smo uporabili knjižnico pandas in numpy, za statistično analizo scipy.stats, za vizualizacijo podatkov matplotlib, seaborn in plotly.express, za interaktivne zemljevide folium skupaj z GeoJSON podatki in branca.colormap, ter za delo z besedilnimi podatki in čiščenje nizov re. Za dodatno upravljanje izpisa grafov smo uporabili tudi plotly.io.
+
 ### Rodnost glede na tip okolja
 Iz podatkov o gostoti naseljenosti občin, lahko okvirno določimo kakšen tip naselij tam prevladuje. Za podeželjske občine smo vzeli gostoto do 200 prebivalcev na kvadratni meter, za mesto pa vse kar je več od tega. To smo združili s podatki o številu živorojenih na 1000 ljudi posamezne občine.
 
