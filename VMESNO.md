@@ -87,3 +87,21 @@ Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenij
 ![povp place](slike/graf_rodnost.svg)
 
 *Slika 6: Primerjava povprečne plače s povprečno rodnostjo.*
+
+### Prvorojeni v in zunaj zakonske zveze
+
+Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zakonski zvezi, smo našli podatke ki predstavljajo le to. Na žalost takšna statistika obstaja le za prvega rojenega otroka, kar je glede na podatke SURS približno polovica rojenih otrok.
+
+![trend_rojstev](slike/rojstva trend.png)
+
+*Slika 7: Količina rojstev v in zunaj zakonske zveze čez leta.*
+
+**Sklep**: Iz grafa vidimo, da količina rojstev zunaj zakonske zveze zadnjih 30 let le narašča. Okoli leta 2000 lahko opazimo spremembo v grafu, saj rojstva zunaj zakonske zveze postanejo bolj pogosti od rojstev v zakonski zvezi.
+
+Če želimo ugotoviti, katere starostne skupine najbolj vplivajo na to spremembo, moramo pogledati tudi rodnost po starostnih skupinah.
+
+![skupine](slike/po skupinah.svg)
+
+*Slika 6: Količina rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
+
+**Sklep**: Iz grafa vidimo, da količina rojstev zunaj zakonske zveze zadnjih 30 let narašča v vseh starostnih skupinah, še posebej v starostnih skupinah pod 30.
