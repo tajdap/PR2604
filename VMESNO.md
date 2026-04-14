@@ -44,9 +44,7 @@ S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 201
 
 *Slika 2: Porazdelitev rodnosti po slovenskih občinah.*
 
-### Vpliv stopnje izobrazbe matere in starosti na prvo rojstvo
-
-# rojstva po izobrazbi
+### Vpliv izobrazbe matere na prvo rojstvo
 
 V vseh skupinah je viden splošen padec števila prvih rojstev skozi čas.
 Najvišje vrednosti povprečno imajo matere s **višješolsko/visokošolsko izobrazbo**.
@@ -60,7 +58,7 @@ Najmanjši padec ima osnovnošolska ali nižja izobrazba, vendar je ta skupina n
 
 *Slika 3: Trend rojstev.*
 
-# Analiza po starosti
+### Vpliv starosti matere na prvo rojstvo
 
 Največ prvih rojstev je v starostni skupini 25–29 let. Sledi skupina 30–34 let, kar kaže na premik materinstva v kasnejša leta.
 Starostni skupini pod 20 let in 40+ let imata zelo nizke vrednosti, kar potrjuje, da je zgodnje in pozno materinstvo redko.
