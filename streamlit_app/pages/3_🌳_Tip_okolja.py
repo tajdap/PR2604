@@ -11,7 +11,7 @@ st.set_page_config(page_title="Tip okolja", page_icon="🌳", layout="wide")
 
 BARVE = ["#8CB369", "#F4E285", "#F4A259", "#5B8E7D", "#BC4B51"]
 BASE = Path(__file__).parent.parent
-
+BASE_DIR = Path(__file__).resolve().parents[2]
 def extract_num(v):
     if pd.isna(v): return 0.0
     s = str(v).replace('"', '').strip()
@@ -40,9 +40,9 @@ def normalize_name_geo(name):
 
 @st.cache_data
 def nalozi_podatke():
-    df_rodnost = pd.read_csv("../data/raw/csv/obcine_rodnost.csv",
+    df_rodnost = pd.read_csv(BASE_DIR / "data" / "raw" / "csv" / "obcine_rodnost.csv",
                              sep=';', encoding='cp1250', skiprows=2)
-    df_gostota = pd.read_csv("../data/raw/csv/gostota_obcine.csv",
+    df_gostota = pd.read_csv(BASE_DIR / "data" / "raw" / "csv" / "gostota_obcine.csv",
                              sep=';', encoding='cp1250', skiprows=2)
 
     df_rodnost.columns = [c.replace('"', '').strip() for c in df_rodnost.columns]

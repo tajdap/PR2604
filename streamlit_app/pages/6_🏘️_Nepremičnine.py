@@ -15,12 +15,12 @@ st.set_page_config(
 )
 
 # NALAGANJE PODATKOV
-
+BASE_DIR = Path(__file__).resolve().parents[2]
 @st.cache_data
 def load_data():
 
     poskus = pd.read_csv(
-        "../data/raw/csv/poskus.csv",
+        BASE_DIR / "data" / "raw" / "csv" / "poskus.csv",
         encoding="utf-8",
         usecols=[
             "ID_POSLA",
@@ -32,7 +32,7 @@ def load_data():
     )
 
     posli = pd.read_csv(
-        "../data/raw/csv/posli.csv",
+        BASE_DIR / "data" / "raw" / "csv" / "posli.csv",
         encoding="utf-8",
         usecols=[
             "ID_POSLA",

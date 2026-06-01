@@ -17,7 +17,7 @@ BARVE = {
 }
 
 BASE = Path(__file__).parent.parent
-
+BASE_DIR = Path(__file__).resolve().parents[2]
 def izvleci_stevilko(v):
     if pd.isna(v): return np.nan
     s = re.sub(r'[^\d,.]', '', str(v))
@@ -35,7 +35,7 @@ def izvleci_stevilko(v):
 
 @st.cache_data
 def nalozi_podatke():
-    pot = "../data/raw/csv/rojstva_zakonske_zveze.csv"
+    pot = BASE_DIR / "data" / "raw" / "csv" / "rojstva_zakonske_zveze.csv"
     df = pd.read_csv(pot, encoding="cp1250", sep=";", skiprows=1)
     df.columns = ["Leto", "Starostne skupine", "Rojeni v zakonski zvezi", "Rojeni zunaj zakonske zveze"]
     df["Leto"] = pd.to_numeric(df["Leto"], errors="coerce")

@@ -10,7 +10,7 @@ st.set_page_config(page_title="Plače po občinah", page_icon="💰", layout="wi
 
 SLO_BRUTO_2023 = 2254.86
 BASE = Path(__file__).parent.parent
-
+BASE_DIR = Path(__file__).resolve().parents[2]
 def normalize_name(name):
     if not isinstance(name, str):
         return name
@@ -22,7 +22,7 @@ def normalize_name(name):
 
 @st.cache_data
 def nalozi_placo():
-    df = pd.read_csv("../data/raw/csv/obcine_avg_placa.csv",
+    df = pd.read_csv(BASE_DIR / "data" / "raw" / "csv" / "obcine_avg_placa.csv",
                      encoding='cp1250', sep=';', skiprows=2,
                      decimal='.', na_values=['z'])
     df.columns = ['obcina', 'bruto_2023', 'bruto_2024', 'bruto_2025',

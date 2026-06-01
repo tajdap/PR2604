@@ -17,10 +17,10 @@ BARVE = {
 }
 
 BASE = Path(__file__).parent.parent
-
+BASE_DIR = Path(__file__).resolve().parents[2]
 @st.cache_data
 def nalozi_podatke():
-    pot = "../data/raw/csv/izobrazba_prvi_otrok.csv"
+    pot = BASE_DIR / "data" / "raw" / "csv" / "izobrazba_prvi_otrok.csv"
     df = pd.read_csv(pot, sep=';', encoding='cp1250', skiprows=2)
     df = df.replace("...", np.nan)
     for col in df.columns[2:]:
