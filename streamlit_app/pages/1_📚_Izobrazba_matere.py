@@ -18,7 +18,7 @@ BASE = Path(__file__).parent.parent
 
 @st.cache_data
 def nalozi_podatke():
-    pot = "../data/raw/csv/izobrazba_prvi_otrok.csv"
+    pot = "../../data/raw/csv/izobrazba_prvi_otrok.csv"
     df = pd.read_csv(pot, sep=';', encoding='cp1250', skiprows=2)
     df = df.replace("...", np.nan)
     for col in df.columns[2:]:
