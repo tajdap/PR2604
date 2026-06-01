@@ -76,7 +76,9 @@ Na podlagi grafa lahko sklepamo, da se v Sloveniji soočamo z upadom števila pr
 
 *Slika 5: Število prvih rojstev letno.*
 
-### Vpliv povprečne bruto plače na rodnost po regijah
+### Vpliv povprečne bruto plače na rodnost
+
+#### Po regijah
 
 Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenija in Osrednjeslovenska) pogosto izkazujejo tudi višje stopnje rodnosti, medtem ko imajo regije na dnu plačilne lestvice (npr. Pomurska, Obalno-kraška) rodnost pod povprečjem.
 
@@ -85,6 +87,27 @@ Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenij
 ![povp place](slike/graf_rodnost.svg)
 
 *Slika 6: Primerjava povprečne plače s povprečno rodnostjo.*
+
+#### Po občinah
+
+V spodnji analizi primerjamo ekonomski razvoj, merjen s povprečno bruto plačo (2023), z demografskim trendom - rodnostjo (živorojeni na 1.000 prebivalcev, 2024) - po vseh slovenskih občinah. Cilj je ugotoviti, ali obstaja sistematična povezava med prihodki in rodnostjo na ravni lokalne skupnosti.
+
+Za razliko od analize po regijah (12 enot) nam analiza na ravni občin ponudi bistveno večji vzorec (~200 občin), kar omogoča zanesljivejše statistične zaključke.
+
+Občine delimo v 4 kvadrante glede na slovensko povprečje plač (2.255 €) in rodnosti (7,9 ‰):
+
+- Visoka plača & visoka rodnost - demografsko in ekonomsko vitalne skupnosti
+- Visoka plača & nizka rodnost - ekonomsko razvite, a demografsko šibkejše občine
+- Nizka plača & visoka rodnost - živahne ruralne skupnosti kljub nižjim prihodkom
+- Nizka plača & nizka rodnost - demografsko in ekonomsko ogrožena območja
+
+Razsevni diagram kaže porazdelitev ~200 občin po dveh dimenzijah. Vsaka točka je ena občina, barva označuje kvadrant glede na slovensko povprečje.
+
+Regresijska premica (siva, prekinjena) nakazuje splošen trend. Izstopajoče vrednosti pri rodnosti pogosto pripadata majhnim občinam (npr. Dobje, Hodoš, Kobilje), kjer že en otrok več ali manj bistveno vpliva na stopnjo na 1.000 prebivalcev - te vrednosti je treba interpretirati previdno.
+
+Omejitev: Majhne občine (< ~500 preb.) imajo statistično nestabilne stopnje rodnosti in nagnjenost k ekstremnim vrednostim.
+
+![obcine_placa](slike/obcine_placa_rodnost.png)
 
 ### Prvorojeni v in zunaj zakonske zveze
 
