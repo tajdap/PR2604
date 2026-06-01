@@ -50,10 +50,24 @@ Severovzhodni del Slovenije (Prekmurje, Podravje ob meji) prevladuje v temno zel
 
 ![zemljevid_place_obcine](slike/place_obcine_zemljevid.png)
 
+*Slika 3: Povprečne bruto plače po občinah*
+
+Zemljevid mediane cen nepremičnin jasno riše tri "vroča" območja (Ljubljana kot gospodarsko središče, turistična središča na Gorenjskem in na obali). Če pogledamo ta ista območja na zemljevidu rodnosti (za obalo nimamo podatkov), opazimo močan kontrast. Sama Mestna občina Ljubljana in gorenjski turistični centri (Bovec, Kranjska Gora) so obarvani zeleno-rumeno, kar pomeni nizko do podpovprečno rodnost. Izjemno visoke cene nepremičnin mladim parom v teh krajih močno otežujejo reševanje stanovanjskega vprašanja. Ker si težko privoščijo primerno veliko stanovanje za družino, se odločitev za prvega ali naslednjega otroka odloži ali pa se ji odpovejo.
+
+Najbolj neposreden dokaz o vplivu cen vidimo, ko opazujemo prehod iz Ljubljane v njeno okolico. Na zemljevidu cen se z odmikom od Ljubljane barva hitro spremeni iz rdeče v rumeno in svetlo zeleno, predvsem proti Dolenjski. Na zemljevidu rodnosti pa je situacija obratna: okolica Ljubljane in Dolenjska sta oranžno-rdeči. Mladi pari se zaradi visokih cen v mestnem jedru selijo na obrobje, kjer so nepremičnine cenovno dostopnejše. Tam si ustvarijo dom in družino, kar umetno znižuje rodnost v mestih in jo drastično povišuje v predmestjih ter bližnjih podeželskih občinah.
+
+Prekmurje, Koroška in deli Kočevskega na zemljevidu nepremičnin izstopajo z najnižjimi cenami nepremičnin. Kljub poceni stanovanjem pa so ta območja na zemljevidu rodnosti rumeno-zelenkasta. 
+
+**Sklep:** Poceni nepremičnine same po sebi niso dovolj za visoko rodnost, če v regiji ni delovnih mest in ekonomskega razvoja. Mladi se iz teh regij izseljujejo zaradi iskanja zaposlitve, kar povzroča demografski upad kljub ugodnemu stanovanjskemu trgu.
+
+![zemljevid_nepremicnine_obcine](slike/nepremicnine_obcine_zemljevid.png)
+
+*Slika 4: Povprečne cene nepremičnin po občinah*
+
 ### 4.3 Vpliv izobrazbe matere na prvo rojstvo
 
 V vseh skupinah je viden splošen padec števila prvih rojstev skozi čas.
-Najvišje vrednosti povprečno imajo matere s **višješolsko/visokošolsko izobrazbo**.
+Najvišje vrednosti povprečno imajo matere z **višješolsko/visokošolsko izobrazbo**.
 Vse izobrazbene skupine imajo negativen naklon trenda, kar pomeni stalno zmanjševanje števila prvih rojstev.
 Največji padec ima srednješolska skupina, kar kaže, da se demografske spremembe najbolj poznajo prav v tej populaciji.
 Najmanjši padec ima osnovnošolska ali nižja izobrazba, vendar je ta skupina numerično najmanjša.
@@ -91,7 +105,7 @@ Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenij
 
 **Sklep**: Med povprečno bruto plačo in rodnostjo obstaja zmerna pozitivna korelacija. To pomeni, da z naraščanjem plač v regiji načeloma narašča tudi rodnost. Čeprav je trend opazen, rezultat ni statistično značilen. To je posledica majhnega vzorca (le 12 statističnih regij). Za potrditev trdne vzročne povezave bi potrebovali daljše časovno obdobje ali podrobnejše podatke na ravni občin.
 
-![povp place](slike/graf_rodnost.svg)
+![povp place](slike/regije_place_rodnost.png)
 
 *Slika 6: Primerjava povprečne plače s povprečno rodnostjo.*
 
