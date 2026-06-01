@@ -42,6 +42,14 @@ S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 201
 
 *Slika 2: Porazdelitev rodnosti po slovenskih občinah.*
 
+Na zemljevidu plač (Slika 3) izrazito izstopata Mestna občina Ljubljana in Novo mesto, ki se barvno uvrščata v najvišji razred. To odraža visoko koncentracijo gospodarskih dejavnosti, javne uprave in močnih industrijskih središč. Podatki potrjujejo proces suburbanizacije. Mladi z višjimi dohodki, ki delajo v Ljubljani, se zaradi visokih cen nepremičnin selijo v obrobne občine, kjer si ustvarijo družino, kar dviguje rodnost v okolici prestolnice, ne pa v njenem središču.
+
+Na obeh zemljevidih močno izstopa regija okoli Novega mesta in proti Ribnici ter Kočevju. Tukaj visoka gospodarska razvitost neposredno pozitivno korelira z demografsko rastjo.
+
+Severovzhodni del Slovenije (Prekmurje, Podravje ob meji) prevladuje v temno zelenih odtenkih, kar nakazuje na občutno nižje povprečne bruto plače. Nizko ekonomsko stanje in pomanjkanje visoko plačanih delovnih mest v teh regijah dolgoročno spodbujata izseljevanje mladih, kar neposredno vodi v nižjo rodnost in hitrejše staranje prebivalstva.
+
+![zemljevid_place_obcine](slike/place_obcine_zemljevid.png)
+
 ### 4.3 Vpliv izobrazbe matere na prvo rojstvo
 
 V vseh skupinah je viden splošen padec števila prvih rojstev skozi čas.
@@ -121,6 +129,7 @@ Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zako
 Če želimo ugotoviti, katere starostne skupine najbolj vplivajo na to spremembo, moramo pogledati tudi rodnost po starostnih skupinah.
 
 ![skupine](slike/poskupinah.png)
+
 
 *Slika 8: Količina rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
 
