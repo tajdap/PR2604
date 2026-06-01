@@ -135,17 +135,7 @@ Da odgovorimo na vprašanje, kako se spreminja število rojstev zunaj in v zakon
 ## 5. Zaključek
 
 Z analizo obsežnih podatkovnih nizov smo uspeli potrditi, da rodnost ni izoliran demografski pojav, temveč neposreden odziv na ekonomske spodbude, stanovanjsko dostopnost in spremembe v življenjskem slogu prebivalstva.
-Skozi raziskavo smo prišli do treh ključnih ugotovitev:
 
-**1. Izseljevanje mladih družin iz urbanih središč:**
-Čeprav analiza na ravni regij in uspešnih industrijskih občin (npr. Novo mesto) kaže zmerno pozitivno korelacijo med višjimi bruto plačami in rodnostjo, v največjih ekonomskih središčih naletimo na paradoks. Mestna občina Ljubljana in turistični centri izkazujejo visoke prihodke, a hkrati izrazito nizko rodnost. Razlog za to tiči v kritični nedostopnosti stanovanjskega trga. Ekstremno visoke cene nepremičnin (ki v teh krajih presegajo 3.000 ali celo 4.000 €/$m^2$) delujejo kot glavna zavora za ustvarjanje družine.
+Raziskava kaže, da ima kombinacija dostopnosti stanovanja in geografske lokacije (stopnje urbanizacije) trenutno največji vpliv na odločitev o ustvarjanju družine. Nizke cene nepremičnin na odročnih območjih (npr. Prekmurje) same po sebi ne zadoščajo za dvig rodnosti, če tam ni gospodarske razvitosti. Najbolj optimalno okolje za nataliteto v Sloveniji tako predstavljajo občine v sredini, torej gospodarsko stabilna območja v zaledju večjih mest, kjer pa cene nepremičnin še niso presegle kritične meje dostopnosti za mlade pare.
 
-**2. Dinamika predmestij:**
-Primerjalna analiza zemljevidov jasno razkriva proces suburbanizacije. Mladi pari z višjimi dohodki se zaradi stanovanjskega krča iz mest selijo na obrobja (npr. okolica Ljubljane), kjer so nepremičnine cenovno bolj dostopne, okolje pa manj urbanizirano. Ta selitveni tok umetno niža stopnjo rodnosti v mestih in jo drastično povišuje v sosednjih podeželskih ter predmestnih občinah, kar se sklada z ugotovitvijo, da rodnost v ruralnih okoljih v zadnjem desetletju upada znatno počasneje kot v mestih.
-
-**3. Sprememba družbenih vrednot in odlašanje materinstva:**
-Demografski podatki o starosti in izobrazbi mater potrjujejo, da višja stopnja izobrazbe podaljšuje čas študija in vstopa na trg dela, kar neposredno zamika rojstvo prvega otroka v kasnejša leta. Hkrati tektonska sprememba v zadnjih 30 letih, ko so rojstva zunaj zakonske zveze postala večinska, kaže na popolno preobrazbo tradicionalnih družinskih struktur v moderni družbi.
-
-Raziskava kaže, da ima kombinacija dostopnosti stanovanja in geografske lokacije (stopnje urbanizacije) trenutno največji neposredni vpliv na odločitev o ustvarjanju družine. Nizke cene nepremičnin na odročni periferiji (npr. Prekmurje) same po sebi ne zadoščajo za dvig rodnosti, če tam ni ekonomske vitalnosti. Najbolj optimalno okolje za nataliteto v Sloveniji tako predstavljajo občine v "zlati sredini" – to so gospodarsko stabilna območja v zaledju večjih mest, kjer pa cene nepremičnin še niso presegle kritične meje dostopnosti za mlade pare.
-
-Za dolgoročno stabilizacijo demografskega upada v Sloveniji so torej ključni sistemski ukrepi na področju decentralizacije gospodarstva in aktivne stanovanjske politike za mlade.
+Za dolgoročno stabilizacijo demografskega upada v Sloveniji so torej ključni ukrepi na področju decentralizacije gospodarstva in aktivne stanovanjske politike za mlade.
