@@ -1,18 +1,17 @@
 # Vpliv socio-ekonomskih dejavnikov na rodnost v Sloveniji
 
-## Opis problema
+## 1. Opis problema
 V zadnjih letih je bilo veliko govora o upadu rodnosti v Sloveniji. Namen tega projekta je raziskati kateri dejavniki (višina plač, stopnja urbanizacije, stopnja zaposlenosti, dostop do stanovanj, izobrazba ipd.) korelirajo z rodnostjo v državi. 
 
 **Cilj projekta** je raziskati kateri dejavnik ima največji negativen/pozitiven vpliv na rodnost.
 
-## Vprašanja
+## 2. Vprašanja
 - Kako plača (povprečna plača, minimalna plača) vpliva na rodnost v posamezni občini ali regiji?
 - Koliko je prvih rojstev zunaj/znotraj zakonske zveze?
 - Kako stopnja urbanizacije (mesto vs. podeželje) vpliva na število rojstev?
 - Ali višja stopnja izobrazbe prebivalstva vpliva na nižjo/višjo rodnost?
-- 
 
-## Vir in oblika podatkov
+## 3. Viri in oblika podatkov
 Projekt temelji na odprtih podatkih v obliki tabel na strani SiStat (SURS) 
 
 Za obdelavo podatkov smo uporabili sledeče vire:
@@ -21,18 +20,18 @@ Za obdelavo podatkov smo uporabili sledeče vire:
 - [stopnja izobrazbe matere, ko se otrok rodi](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1027S.px/)
 - [živorojeni v zakonski zvezi ali zunaj zakonske zveze](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/Data/05J1018S.px/)
 
-## Analiza podatkov
+## 4. Analiza podatkov
 
 Za obdelavo in analizo podatkov smo uporabili knjižnico pandas in numpy, za statistično analizo scipy.stats, za vizualizacijo podatkov matplotlib, seaborn in plotly.express, za interaktivne zemljevide folium skupaj z GeoJSON podatki in branca.colormap, ter za delo z besedilnimi podatki in čiščenje nizov re. Za dodatno upravljanje izpisa grafov smo uporabili tudi plotly.io.
 
-### Rodnost glede na tip okolja
+### 4.1 Rodnost glede na tip okolja
 Iz podatkov o gostoti naseljenosti občin, lahko okvirno določimo kakšen tip naselij tam prevladuje. Za podeželjske občine smo vzeli gostoto do 200 prebivalcev na kvadratni meter, za mesto pa vse kar je več od tega. To smo združili s podatki o številu živorojenih na 1000 ljudi posamezne občine.
 
 S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 2013-2018 pa se je tudi zgodila ta sprememba, da je rodnost v mestih začela upadati močneje kot na podeželju. Tako je v zadnjih nekaj letih veliko več rojstev v manjših naseljih, morda zaradi večje prisotnosti tradicionalnih vrednot kot v mestih.
 ![Graf rodnosti](slike/graf_tip_okolja.png)
 *Slika 1: Povprečna rodnost v obdobju 2007-2023.*
 
-### Zemljevid rodnosti po občinah
+### 4.2 Zemljevid rodnosti po občinah
 **Največja rodnost** je opazna predvsem v predmestjih Ljubljane. Lahko bi sklepali, da se mladi selijo na obrobje mesta, oziroma je življenje tam bolj cenovno ugodno, sploh kar se tiče nepremičnin, ki so ključen del za ustvarjanje družine. Lahko pa bi sklepali tudi, da gre za vrednote, močne rdeče lise namreč lahko opazimo tudi na jugovzhodu, ter na območju Gorenja vas - Poljane. To so bolj tradicionalno usmerjena območja, kjer je podeželjski način življenja še vedno močno povezan z velikimi družinami. Nobeno od večjih, moderniziranih mest namreč ni temneje obarvano.
 
 **Nizka rodnost** pa je predvsem na odročnih delih in hribovitih legah, kjer se nahajajo le kakšne samotne kmetije - Bovec in Kranjska Gora sredi Alp, ter na Pohorju Ruše in Podvelka. Prav tako je zeleno-rumeno tudi Prekmurje, kjer je mladih vedno manj.
@@ -43,7 +42,7 @@ S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 201
 
 *Slika 2: Porazdelitev rodnosti po slovenskih občinah.*
 
-### Vpliv izobrazbe matere na prvo rojstvo
+### 4.3 Vpliv izobrazbe matere na prvo rojstvo
 
 V vseh skupinah je viden splošen padec števila prvih rojstev skozi čas.
 Najvišje vrednosti povprečno imajo matere s **višješolsko/visokošolsko izobrazbo**.
@@ -57,7 +56,7 @@ Najmanjši padec ima osnovnošolska ali nižja izobrazba, vendar je ta skupina n
 
 *Slika 3: Trend rojstev.*
 
-### Vpliv starosti matere na prvo rojstvo
+### 4.4 Vpliv starosti matere na prvo rojstvo
 
 Največ prvih rojstev je v starostni skupini 25–29 let. Sledi skupina 30–34 let, kar kaže na premik materinstva v kasnejša leta.
 Starostni skupini pod 20 let in 40+ let imata zelo nizke vrednosti, kar potrjuje, da je zgodnje in pozno materinstvo redko.
@@ -76,9 +75,9 @@ Na podlagi grafa lahko sklepamo, da se v Sloveniji soočamo z upadom števila pr
 
 *Slika 5: Število prvih rojstev letno.*
 
-### Vpliv povprečne bruto plače na rodnost
+### 4.5 Vpliv povprečne bruto plače na rodnost
 
-#### Po regijah
+### 4.5.1 Po regijah
 
 Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenija in Osrednjeslovenska) pogosto izkazujejo tudi višje stopnje rodnosti, medtem ko imajo regije na dnu plačilne lestvice (npr. Pomurska, Obalno-kraška) rodnost pod povprečjem.
 
@@ -88,7 +87,7 @@ Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenij
 
 *Slika 6: Primerjava povprečne plače s povprečno rodnostjo.*
 
-#### Po občinah
+#### 4.5.2 Po občinah
 
 V spodnji analizi primerjamo ekonomski razvoj, merjen s povprečno bruto plačo (2023), z demografskim trendom - rodnostjo (živorojeni na 1.000 prebivalcev, 2024) - po vseh slovenskih občinah. Cilj je ugotoviti, ali obstaja sistematična povezava med prihodki in rodnostjo na ravni lokalne skupnosti.
 
@@ -105,11 +104,11 @@ Razsevni diagram kaže porazdelitev ~200 občin po dveh dimenzijah. Vsaka točka
 
 Regresijska premica (siva, prekinjena) nakazuje splošen trend. Izstopajoče vrednosti pri rodnosti pogosto pripadata majhnim občinam (npr. Dobje, Hodoš, Kobilje), kjer že en otrok več ali manj bistveno vpliva na stopnjo na 1.000 prebivalcev - te vrednosti je treba interpretirati previdno.
 
-Omejitev: Majhne občine (< ~500 preb.) imajo statistično nestabilne stopnje rodnosti in nagnjenost k ekstremnim vrednostim.
+*Majhne občine (< ~500 preb.) imajo statistično nestabilne stopnje rodnosti in nagnjenost k ekstremnim vrednostim.*
 
 ![obcine_placa](slike/obcine_placa_rodnost.png)
 
-### Prvorojeni v in zunaj zakonske zveze
+### 4.6 Prvorojeni v in zunaj zakonske zveze
 
 Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zakonski zvezi, smo našli podatke ki predstavljajo le to. Na žalost takšna statistika obstaja le za prvega rojenega otroka, kar je glede na podatke SURS približno polovica rojenih otrok.
 
@@ -123,6 +122,6 @@ Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zako
 
 ![skupine](slike/poskupinah.png)
 
-*Slika 6: Količina rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
+*Slika 8: Količina rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
 
 **Sklep**: Iz grafa vidimo, da količina rojstev zunaj zakonske zveze zadnjih 30 let narašča v vseh starostnih skupinah, še posebej v starostnih skupinah pod 30.
