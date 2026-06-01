@@ -60,7 +60,7 @@ Prekmurje, Koroška in deli Kočevskega na zemljevidu nepremičnin izstopajo z n
 
 **Sklep:** Poceni nepremičnine same po sebi niso dovolj za visoko rodnost, če v regiji ni delovnih mest in ekonomskega razvoja. Mladi se iz teh regij izseljujejo zaradi iskanja zaposlitve, kar povzroča demografski upad kljub ugodnemu stanovanjskemu trgu.
 
-![zemljevid_nepremicnine_obcine](slike/nepremicnine_obcine_zemljevid.png)
+![zemljevid_nepremicnine_obcine](slike/mapa_slovenije_stanovanja.PNG)
 *Slika 4: Mediana cen nepremičnin po občinah*
 
 ### 4.3 Vpliv izobrazbe matere na prvo rojstvo
