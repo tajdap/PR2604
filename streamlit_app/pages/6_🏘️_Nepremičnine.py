@@ -15,6 +15,7 @@ st.set_page_config(
 )
 
 # NALAGANJE PODATKOV
+BASE = Path(__file__).parent.parent
 BASE_DIR = Path(__file__).resolve().parents[2]
 @st.cache_data
 def load_data():
