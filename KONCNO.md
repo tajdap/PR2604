@@ -132,13 +132,6 @@ Da odgovorimo na vprašanje, kako se spreminja število rojstev zunaj in v zakon
 
 **Sklep**: Iz grafa vidimo, da količina rojstev zunaj zakonske zveze zadnjih 30 let le narašča. Okoli leta 2000 lahko opazimo spremembo v grafu, saj rojstva zunaj zakonske zveze postanejo bolj pogosta od rojstev v zakonski zvezi.
 
-Če želimo ugotoviti, katere starostne skupine najbolj vplivajo na to spremembo, moramo pogledati tudi rodnost po starostnih skupinah.
-
-![skupine](slike/poskupinah.png)
-*Slika 11: Števila rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
-
-**Sklep**: Iz grafa vidimo, da število rojstev zunaj zakonske zveze zadnjih 30 let narašča v vseh starostnih skupinah, še posebej v starostnih skupinah pod 30.
-
 ## 5. Zaključek
 
 Z analizo obsežnih podatkovnih nizov smo uspeli potrditi, da rodnost ni izoliran demografski pojav, temveč neposreden odziv na ekonomske spodbude, stanovanjsko dostopnost in spremembe v življenjskem slogu prebivalstva.
