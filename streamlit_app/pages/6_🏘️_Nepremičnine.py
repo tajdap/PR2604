@@ -224,7 +224,7 @@ st.dataframe(
 )
 
 # ZEMLJEVID
-BASE_DIR = Path(__file__).resolve().parents[1]
+BASE_DIR = Path(__file__).resolve().parents[2]
 st.subheader("Zemljevid mediane cene €/m² po občinah")
 
 with open(BASE_DIR / "obcine_map.geojson", "r", encoding="utf-8") as f:
