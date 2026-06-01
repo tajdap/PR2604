@@ -25,9 +25,10 @@ Za obdelavo podatkov smo uporabili sledeče vire:
 Za obdelavo in analizo podatkov smo uporabili knjižnico pandas in numpy, za statistično analizo scipy.stats, za vizualizacijo podatkov matplotlib, seaborn in plotly.express, za interaktivne zemljevide folium skupaj z GeoJSON podatki in branca.colormap, ter za delo z besedilnimi podatki in čiščenje nizov re. Za dodatno upravljanje izpisa grafov smo uporabili tudi plotly.io.
 
 ### 4.1 Rodnost glede na tip okolja
-Iz podatkov o gostoti naseljenosti občin, lahko okvirno določimo kakšen tip naselij tam prevladuje. Za podeželjske občine smo vzeli gostoto do 200 prebivalcev na kvadratni meter, za mesto pa vse kar je več od tega. To smo združili s podatki o številu živorojenih na 1000 ljudi posamezne občine.
+Iz podatkov o gostoti naseljenosti občin, lahko okvirno določimo kakšen tip naselij tam prevladuje. Za podeželjske občine smo vzeli gostoto do 200 prebivalcev na kvadratni meter, za mesto pa vse kar je več od tega. To smo združili s podatki o številu živorojenih na 1000 prebivalcev posamezne občine.
 
-S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 2013-2018 pa se je tudi zgodila ta sprememba, da je rodnost v mestih začela upadati močneje kot na podeželju. Tako je v zadnjih nekaj letih veliko več rojstev v manjših naseljih, morda zaradi večje prisotnosti tradicionalnih vrednot kot v mestih.
+S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 2013-2018 pa se je tudi zgodila ta sprememba, da je rodnost v mestih začela upadati močneje kot na podeželju. Tako je v zadnjih nekaj letih opaziti več rojstev v manjših naseljih, morda zaradi večje prisotnosti tradicionalnih vrednot kot v mestih.
+
 ![Graf rodnosti](slike/graf_tip_okolja.png)
 *Slika 1: Povprečna rodnost v obdobju 2007-2023.*
 
@@ -39,7 +40,6 @@ S tem lahko vidimo, da je rodnost na splošno skozi leta upadala, med letoma 201
 *Občine, ki so obarvane sivo, so v podatkih v tabelah poimenovane drugače, kot v datoteki interaktivnega zemljevida.*
 
 ![Zemljevid rodnosti](slike/rodnost_zemljevid.png)
-
 *Slika 2: Porazdelitev rodnosti po slovenskih občinah.*
 
 Na zemljevidu plač (Slika 3) izrazito izstopata Mestna občina Ljubljana in Novo mesto, ki se barvno uvrščata v najvišji razred. To odraža visoko koncentracijo gospodarskih dejavnosti, javne uprave in močnih industrijskih središč. Podatki potrjujejo proces suburbanizacije. Mladi z višjimi dohodki, ki delajo v Ljubljani, se zaradi visokih cen nepremičnin selijo v obrobne občine, kjer si ustvarijo družino, kar dviguje rodnost v okolici prestolnice, ne pa v njenem središču.
@@ -61,41 +61,34 @@ Prekmurje, Koroška in deli Kočevskega na zemljevidu nepremičnin izstopajo z n
 **Sklep:** Poceni nepremičnine same po sebi niso dovolj za visoko rodnost, če v regiji ni delovnih mest in ekonomskega razvoja. Mladi se iz teh regij izseljujejo zaradi iskanja zaposlitve, kar povzroča demografski upad kljub ugodnemu stanovanjskemu trgu.
 
 ![zemljevid_nepremicnine_obcine](slike/nepremicnine_obcine_zemljevid.png)
-
-*Slika 4: Povprečne cene nepremičnin po občinah*
+*Slika 4: Mediana cen nepremičnin po občinah*
 
 ### 4.3 Vpliv izobrazbe matere na prvo rojstvo
 
-V vseh skupinah je viden splošen padec števila prvih rojstev skozi čas.
-Najvišje vrednosti povprečno imajo matere z **višješolsko/visokošolsko izobrazbo**.
-Vse izobrazbene skupine imajo negativen naklon trenda, kar pomeni stalno zmanjševanje števila prvih rojstev.
-Največji padec ima srednješolska skupina, kar kaže, da se demografske spremembe najbolj poznajo prav v tej populaciji.
-Najmanjši padec ima osnovnošolska ali nižja izobrazba, vendar je ta skupina numerično najmanjša.
+V vseh skupinah je viden splošen padec števila prvih rojstev skozi čas. Najvišje vrednosti povprečno imajo matere z višješolsko ali visokošolsko izobrazbo. Vse izobrazbene skupine imajo negativen naklon trenda, kar pomeni stalno zmanjševanje števila prvih rojstev.
+
+Največji padec ima srednješolska skupina, kar kaže, da se demografske spremembe najbolj poznajo prav v tej populaciji. Najmanjši padec ima osnovnošolska ali nižja izobrazba, vendar je ta skupina numerično najmanjša.
 
 **Sklep**: izobrazba sama po sebi ne povečuje števila rojstev, ampak vpliva predvsem na čas odločanja za prvega otroka (kasnejše materinstvo). Upad prvih rojstev je splošen demografski pojav, ne le posledica izobrazbe.
 
 ![trend rojstev](slike/trend_rojstev.png)
-
-*Slika 3: Trend rojstev.*
+*Slika 5: Trend prvih rojstev glede na doseženo izobrazbo matere..*
 
 ### 4.4 Vpliv starosti matere na prvo rojstvo
 
-Največ prvih rojstev je v starostni skupini 25–29 let. Sledi skupina 30–34 let, kar kaže na premik materinstva v kasnejša leta.
-Starostni skupini pod 20 let in 40+ let imata zelo nizke vrednosti, kar potrjuje, da je zgodnje in pozno materinstvo redko.
+Največ prvih rojstev je v starostni skupini **25–29 let**. Sledi skupina **30–34 let**, kar kaže na premik materinstva v kasnejša leta. Starostni skupini pod 20 let in 40+ let imata zelo nizke vrednosti, kar potrjuje, da je zgodnje in pozno materinstvo redko.
 
 **Sklep**: povprečna starost ob prvem rojstvu se premika navzgor (odlašanje materinstva).
 
 ![prvo_rojstvo_po_starosti](slike/prvo_rojstvo_po_starosti.png)
-
-*Slika 4: Število prvih rojstev po starostnih skupinah mater glede na leto*
+*Slika 6: Število prvih rojstev po starostnih skupinah mater glede na leto*
 
 Na podlagi grafa lahko sklepamo, da se v Sloveniji soočamo z upadom števila prvorojencev, kar kaže na to, da se vse manj žensk odloča za prvega otroka. Ta pojav je lahko povezan s kasnejšim odločanjem za materinstvo ter širšimi družbenimi in ekonomskimi dejavniki.
 
 **Sklep**: Slovenija se sooča z dolgoročnim upadom števila prvorojencev.
 
 ![prva rojstva](slike/prva_rojstva_letno.png)
-
-*Slika 5: Število prvih rojstev letno.*
+*Slika 7: Število prvih rojstev letno.*
 
 ### 4.5 Vpliv povprečne bruto plače na rodnost
 
@@ -106,8 +99,7 @@ Vizualno lahko opazimo, da regije z višjimi plačami (npr. Jugovzhodna Slovenij
 **Sklep**: Med povprečno bruto plačo in rodnostjo obstaja zmerna pozitivna korelacija. To pomeni, da z naraščanjem plač v regiji načeloma narašča tudi rodnost. Čeprav je trend opazen, rezultat ni statistično značilen. To je posledica majhnega vzorca (le 12 statističnih regij). Za potrditev trdne vzročne povezave bi potrebovali daljše časovno obdobje ali podrobnejše podatke na ravni občin.
 
 ![povp place](slike/regije_place_rodnost.png)
-
-*Slika 6: Primerjava povprečne plače s povprečno rodnostjo.*
+*Slika 8: Primerjava povprečne plače s povprečno rodnostjo glede na regijo.*
 
 #### 4.5.2 Po občinah
 
@@ -129,22 +121,38 @@ Regresijska premica (siva, prekinjena) nakazuje splošen trend. Izstopajoče vre
 *Majhne občine (< ~500 preb.) imajo statistično nestabilne stopnje rodnosti in nagnjenost k ekstremnim vrednostim.*
 
 ![obcine_placa](slike/obcine_placa_rodnost.png)
+*Slika 9: Primerjava povprečne plače s povprečno rodnostjo glede na občino.*
 
 ### 4.6 Prvorojeni v in zunaj zakonske zveze
 
-Da odgovorimo na vprašanje, kako se spreminja količine rojstev zunaj in v zakonski zvezi, smo našli podatke ki predstavljajo le to. Na žalost takšna statistika obstaja le za prvega rojenega otroka, kar je glede na podatke SURS približno polovica rojenih otrok.
+Da odgovorimo na vprašanje, kako se spreminja število rojstev zunaj in v zakonski zvezi, smo našli podatke, ki predstavljajo le-to. Na žalost takšna statistika obstaja le za prvega rojenega otroka, kar je glede na podatke SURS približno polovica rojenih otrok.
 
 ![trend_rojstev](slike/rojstva_poroka.png)
+*Slika 10: Količina rojstev v in zunaj zakonske zveze skozi leta.*
 
-*Slika 7: Količina rojstev v in zunaj zakonske zveze čez leta.*
-
-**Sklep**: Iz grafa vidimo, da količina rojstev zunaj zakonske zveze zadnjih 30 let le narašča. Okoli leta 2000 lahko opazimo spremembo v grafu, saj rojstva zunaj zakonske zveze postanejo bolj pogosti od rojstev v zakonski zvezi.
+**Sklep**: Iz grafa vidimo, da količina rojstev zunaj zakonske zveze zadnjih 30 let le narašča. Okoli leta 2000 lahko opazimo spremembo v grafu, saj rojstva zunaj zakonske zveze postanejo bolj pogosta od rojstev v zakonski zvezi.
 
 Če želimo ugotoviti, katere starostne skupine najbolj vplivajo na to spremembo, moramo pogledati tudi rodnost po starostnih skupinah.
 
 ![skupine](slike/poskupinah.png)
+*Slika 11: Števila rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
 
+**Sklep**: Iz grafa vidimo, da število rojstev zunaj zakonske zveze zadnjih 30 let narašča v vseh starostnih skupinah, še posebej v starostnih skupinah pod 30.
 
-*Slika 8: Količina rojstev v in zunaj zakonske zveze čez leta glede na starostno skupino.*
+## 5. Zaključek
 
-**Sklep**: Iz grafa vidimo, da količina rojstev zunaj zakonske zveze zadnjih 30 let narašča v vseh starostnih skupinah, še posebej v starostnih skupinah pod 30.
+Z analizo obsežnih podatkovnih nizov smo uspeli potrditi, da rodnost ni izoliran demografski pojav, temveč neposreden odziv na ekonomske spodbude, stanovanjsko dostopnost in spremembe v življenjskem slogu prebivalstva.
+Skozi raziskavo smo prišli do treh ključnih ugotovitev:
+
+**1. Izseljevanje mladih družin iz urbanih središč:**
+Čeprav analiza na ravni regij in uspešnih industrijskih občin (npr. Novo mesto) kaže zmerno pozitivno korelacijo med višjimi bruto plačami in rodnostjo, v največjih ekonomskih središčih naletimo na paradoks. Mestna občina Ljubljana in turistični centri izkazujejo visoke prihodke, a hkrati izrazito nizko rodnost. Razlog za to tiči v kritični nedostopnosti stanovanjskega trga. Ekstremno visoke cene nepremičnin (ki v teh krajih presegajo 3.000 ali celo 4.000 €/$m^2$) delujejo kot glavna zavora za ustvarjanje družine.
+
+**2. Dinamika predmestij:**
+Primerjalna analiza zemljevidov jasno razkriva proces suburbanizacije. Mladi pari z višjimi dohodki se zaradi stanovanjskega krča iz mest selijo na obrobja (npr. okolica Ljubljane), kjer so nepremičnine cenovno bolj dostopne, okolje pa manj urbanizirano. Ta selitveni tok umetno niža stopnjo rodnosti v mestih in jo drastično povišuje v sosednjih podeželskih ter predmestnih občinah, kar se sklada z ugotovitvijo, da rodnost v ruralnih okoljih v zadnjem desetletju upada znatno počasneje kot v mestih.
+
+**3. Sprememba družbenih vrednot in odlašanje materinstva:**
+Demografski podatki o starosti in izobrazbi mater potrjujejo, da višja stopnja izobrazbe podaljšuje čas študija in vstopa na trg dela, kar neposredno zamika rojstvo prvega otroka v kasnejša leta. Hkrati tektonska sprememba v zadnjih 30 letih, ko so rojstva zunaj zakonske zveze postala večinska, kaže na popolno preobrazbo tradicionalnih družinskih struktur v moderni družbi.
+
+Raziskava kaže, da ima kombinacija dostopnosti stanovanja in geografske lokacije (stopnje urbanizacije) trenutno največji neposredni vpliv na odločitev o ustvarjanju družine. Nizke cene nepremičnin na odročni periferiji (npr. Prekmurje) same po sebi ne zadoščajo za dvig rodnosti, če tam ni ekonomske vitalnosti. Najbolj optimalno okolje za nataliteto v Sloveniji tako predstavljajo občine v "zlati sredini" – to so gospodarsko stabilna območja v zaledju večjih mest, kjer pa cene nepremičnin še niso presegle kritične meje dostopnosti za mlade pare.
+
+Za dolgoročno stabilizacijo demografskega upada v Sloveniji so torej ključni sistemski ukrepi na področju decentralizacije gospodarstva in aktivne stanovanjske politike za mlade.
