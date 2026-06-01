@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="PR Nepremičnine",
+    page_title="Socioekonomski vplivi na rodnost",
 )
 
 st.write("# Pozdravljen na naši streamlit aplikaciji! 👋")
